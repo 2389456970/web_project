@@ -1,0 +1,10 @@
+.content{width: 100%;height: 411px;border-top:1px solid #CECBCB;}
+.aside{width:261px ;height: 411px;float: left;border-right: 1px solid #CECBCB;}
+
+.aside li{height: 54px;background: url(../img/sec_menu_bg_b.jpg);margin: 5px;text-align: center;list-style: none;line-height: 50px;color: 1A55B2;}
+.aside a{text-decoration: none;}
+.aside ul li:hover{background:url(../img/sec_menu_bg_a.jpg);}
+.txt{width: 740px;height: 411px;float: right;}
+.txt p{line-height: 35px;}
+.text{vertical-align: top;padding: 0 auto;}
+.clr{width: 0;height: 0;clear: both;}

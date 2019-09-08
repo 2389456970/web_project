@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contact_us .left .blank{border-bottom:none;
+	   background:url(../img/blank.png) no-repeat;
+}
+
+
+
+img{border:none;
+}
+
+ul,li{list-style:none;
+}
+
+ol,li{list-style:none;
+}
+
+a{
+  text-decoration:none;
+  color:#333333;
+  outline:none;
+  }
+  
+textarea{
+	 border:none;
+	 }
+	 
+*{ 
+	margin:0;
+	padding:0;
+	}
+	
+img{
+	border:none;
+	}
+	
+.wrap{
+	  width:1200px;
+	  margin:0 auto;
+	  overflow:hidden;
+}
+	
+.header{
+       width:100%;
+	   float:left;
+}
+
+.header a{width:412px;
+          height:122px;
+		  float:left;
+}
+
+.header a img{
+	width:412px;
+     height:122px;
+	
+}
+
+.nav{
+     float:right;
+	 color:#000;
+}
+
+.nav ul{margin-top:40px;
+float:right;
+}
+
+.nav ul li {float:left;
+		    line-height:50px;
+			font-family:"微软雅黑";
+            font-size:18px;
+			width:145px;
+			height:50px;
+}
+
+.nav .on a{color:#FFF;
+               background:#e03e26;
+}
+
+.nav li a{width:145px;
+          height:50px;
+		  display:block;
+		  text-align:center;
+		  float:right;
+}
+
+.nav li a:hover{
+	             background-color:#e03e26;
+				 color:#FFF;
+}
+
+.footer{float:left;
+       width:100%;
+	   margin-top:68px;
+	   background:#5485ca;
+}
+
+.footer .up{ height:192px;
+			 margin-top:58px;	
+}
+
+.footer .up dl{
+               float:left;
+			   margin-right:108px;
+			   width:97px;
+}
+
+.footer .up dt a{
+				  font-family:"微软雅黑";
+				  font-size:18px;
+				  color:#1b1a1a;			  
+}
+
+.footer .up dd a{
+				   float:left;
+				  font-family:"微软雅黑";
+                  font-size:16px;
+				  color:#1b1a1a;
+				  margin-top:10px;
+				  width:96px;
+				  height:20px;
+}
+
+.footer .service{float:right;
+                 width:120px;
+				 height:143px;
+}
+
+.footer .service h2{font-family:"微软雅黑";
+                    font-size:18px;
+					font-weight:normal;
+					text-align:center;
+}
+
+.footer .service img{width:120px;
+                     height:120px;
+}
+
+.footer .contact{background-color:#225397;
+                 height:50px;
+}
+
+.footer .contact p{font-family:"微软雅黑";
+                   font-size:18px;
+				   height:50px;
+				   line-height:50px;
+				   color:#333333;
+}

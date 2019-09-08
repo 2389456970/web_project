@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{overflow:hidden;
+        width:100%;
+		height:400px;
+		position:relative;
+}
+
+.banner img{ position:absolute;
+             width:1423px;
+			 height:400px;            
+}
+
+.contact_us{
+	           float:left;
+	}
+	
+	.contact_us .left{float:left;
+	}
+	
+	.contact_us .left h1{
+		 background:#38cbf1;
+		 text-align:center;
+		 font-family:"微软雅黑";
+		 font-size:24px;
+		 color:#FFF;
+		 font-weight:normal;
+		 width:215px;
+		 height:71px;
+		 margin-top:20px;
+		 border-bottom:1px solid #999;
+		 line-height:44px;
+		}
+		
+.contact_us .left h1 span{
+										 font-family:"微软雅黑";
+										 font-size:14px;
+										 display:block;
+										 text-align:center;
+										 line-height:7px;
+	}
+	
+.contact_us .left ul{
+			         width:215px;
+			}
+			
+.contact_us .left ul li{
+			background:url(../img/tupian.png) no-repeat 50px 16px;
+			width:215px;
+			height:40px;
+			text-align:center;
+			list-style:none;
+			font-family:"微软雅黑";
+			font-size:18px;
+			color:#333333;
+			line-height:40px;
+			border-bottom:1px solid #999;
+			}
+
+.contact_us .left ul li a{display:block;
+	                      width:215px;
+                          height:40px;
+}
+
+.contact_us .left ul .on a{background:url(../img/tupian1.png) no-repeat 50px 16px;
+                                background-color:#38cdf1;
+							    color:#333333;
+}
+
+.contact_us .left ul li a:hover{
+			                  background:url(../img/tupian1.png) no-repeat 50px 16px;
+			                  background-color:#38cbf1;
+		                      color:#333333;									 
+}
+
+.contact_us .avatar{width:216px;
+}
+
+.contact_us .avatar img{float:left;
+}
+		
+.contact_us .avatar p span{
+		                      font-size:24px;
+							  color:#cc3333;
+							  display:block;
+							  float:right;
+							  line-height:14px;
+							  font-weight:bold;
+}
+		
+.contact_us .avatar p{font-family:"微软雅黑";
+		                     font-size:18px;
+							 float:left;
+							 color:#999999;
+}
+		
+.contact_us .avatar h2{font-weight:normal;
+						      font-family:"宋体";
+						      font-size:12px;
+							 margin-top:12px;
+							 color:#999999;	
+							 float:left;	
+}
+
+.qroduct{float:right;
+         width:925px;
+}
+
+.qroduct .title{width:925px;
+			border-bottom:2px solid #999;
+			float:left;
+}
+
+.qroduct .title span a:hover{color:#e03e26;
+}
+
+.qroduct .title span .at_present{color:#e03e26;
+}
+
+.qroduct .title h2{font-family:"微软雅黑";
+            font-size:24px;
+			float:left;
+			margin-top:64px;
+			font-weight:normal;
+			color:#333;
+}
+
+.qroduct .title span{font-family:"微软雅黑";
+                 font-size:14px;
+				 float:right;
+				 margin-top:76px;
+				 color:#333;
+}
+
+.qroduct .product ul{
+                     width:925px;
+}
+
+.qroduct .product ul li{float:left;
+                        margin-top:33px;
+			            margin-left:11px;
+						margin-right:15px;
+						width:280px;
+						height:280px;
+						border:1px solid #cccccc;
+						background-color:#FFF;
+}
+
+.qroduct .product ul li img{width:246px;
+                            height:176px;
+							margin:30px 19px;
+							margin-bottom:34px;
+}
+
+.qroduct .product span{width:280px;
+                      height:40px;
+					  background-color:#cccccc;
+					  text-align:center;
+					  line-height:40px;
+					  font-weight:normal;
+					  color:#333;
+					  font-family:"微软雅黑";
+					  font-size:16px;
+					  display:block;
+}
+
+.qroduct .product ul li:hover span{
+	                          background-color:#33ccff;
+                              color:#FFF;
+}
+
+.qroduct .page ul{float:left;
+                  margin-left:11px;
+				  margin-top:77px;
+}
+
+.qroduct .page ul li{float:left;
+                          border:1px solid #999999;
+						  width:50px;
+						  height:40px;
+						  text-align:center;
+						  line-height:40px;
+						  margin-right:13px;
+}
+
+.qroduct .page ul li a{width:50px;
+						  height:40px;
+						  display:block;
+}
+
+.qroduct .page ul .on{color:#cc3333;
+}
+
+.qroduct .page img{margin:12px;
+}
+
+.qroduct .page ul a:hover{color:#cc3333;
+}

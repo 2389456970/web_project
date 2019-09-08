@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.banner{ overflow:hidden;
+         width:100%;
+		 height:400px;
+		 position:relative;
+}
+
+.banner img{ position:absolute;
+              left:-300px;
+}
+
+.contact_us{
+	           float:left;
+	}
+	
+	.contact_us .left h1{
+		 background:#38cbf1;
+		 text-align:center;
+		 font-family:"微软雅黑";
+		 font-size:24px;
+		 margin-top:30px;
+		 width:216px;
+		 height:70px;
+		 color:#FFF;
+		 line-height:44px;
+		 border-bottom:1px solid #999;
+		 font-weight:normal;
+		}
+		
+	.contact_us .left h1 span{
+										 font-family:"微软雅黑";
+										 font-size:14px;
+										 display:block;
+										 text-align:center;
+										 line-height:7px;
+	}
+	
+.contact_us	.left{
+		float:left;
+		}
+		
+.contact_us .left ul{
+			         width:216px;
+			}
+			
+.contact_us .left ul li{float:left;
+}
+				
+.contact_us .left ul li a{
+			background:url(../img/tupian.png) no-repeat 50px 16px;
+			width:216px;
+			height:40px;
+			text-align:center;
+			list-style:none;
+			font-family:"微软雅黑";
+			font-size:18px;
+			color:#333333;
+			border-bottom:1px solid #999;
+			line-height:30px;
+			display:block;
+			line-height:40px;
+			}
+			
+.contact_us .left ul .on a{
+							background:url(../img/tupian1.png) no-repeat 50px 16px;                            background-color:#38cbf1;
+							color:#FFF;
+}
+
+.contact_us .left ul li a:hover{
+			                  background:url(../img/tupian1.png) no-repeat 50px 16px;
+			                  background-color:#38cbf1;
+		                      color:#FFF;								 
+		}
+		
+		
+.contact_us .left .avatar{width:216px;
+}
+		
+.contact_us .left .avatar img{float:left;
+}
+		
+.contact_us .left .avatar h2{font-weight:normal;
+						      font-family:"宋体";
+						      font-size:12px;
+							 margin-top:12px;
+							 color:#999999;	
+							 float:left;						  
+}
+		
+.contact_us .left .avatar p{
+		                     font-family:"微软雅黑";
+		                     font-size:18px;
+							 float:left;
+							 color:#999999;
+}
+		
+.contact_us .left .avatar p span{
+		                      font-size:24px;
+							  color:#cc3333;
+							  display:block;
+							  float:right;
+							  line-height:14px;
+							  font-weight:bold;
+}
+		
+.about_us{ font-family:"微软雅黑";
+           float:right;
+           width:921px;
+		   margin-bottom:44px;
+		   margin-right:9px;
+}
+
+.about_us .title{border-bottom:2px solid #999;
+                 float:left;
+				 width:921px;
+}
+
+.about_us .title h2{font-size:24px;
+			 margin-top:75px;
+			 font-weight:normal;
+             float:left;
+			 font-family:"微软雅黑";
+}
+
+.about_us .title span{font-size:14px;
+               float:right;
+			   margin-top:87px;
+			   color:#333333;
+			   font-weight:normal;
+}
+
+.about_us .title span .at_present{color:#cc3333;
+}
+
+.about_us .title span a:hover{color:#e03e26;
+}
+
+.about_us h3{font-family:"微软雅黑";
+             font-size:16px;
+			 color:#333;
+			 width:910px;
+			 margin-top:10px;
+			 margin-bottom:10px;
+			 float:right;
+			 font-weight:normal;
+}
+
+.about_us img{margin-right:9px;
+                float:right;
+}
+
+.about_us p{margin-left:9px;
+            width:905px;
+			line-height:25px;
+			text-indent:2em;
+			font-family:"宋体";
+			font-size:14px;
+			margin-top:10px;
+			color:#666666;
+			float:left;
+}
+
+.about_us b{color:#000;
+            font-weight:normal;
+}

@@ -1,0 +1,108 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+   padding: 0;
+  margin: 0;
+
+}
+.head-img{
+  width: 100%;
+ 
+
+}
+.audio{
+   width: 102rpx;
+   height: 110rpx;
+   position: absolute;
+   left: 50%;
+   margin-top: 180rpx;
+   margin-left: -51rpx;
+   /* 图片的透明度 */
+   opacity: 0.5;
+}
+.author-data{
+  flex-direction: row; 
+ 
+ margin-left: 30rpx;
+  margin-top: 20rpx;
+  
+}
+.avatar{
+  width: 65rpx;
+  height:65rpx;
+  vertical-align: middle;
+
+}
+.author{
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #ccc;
+
+}
+.name{
+  font-size: 40rpx;
+  /* margin-left: 20rpx; */
+  vertical-align: middle;
+  color: #999;
+  font-family: 楷体;
+}
+.publish{
+  font-size: 25rpx;
+  margin-left: 20rpx;
+  vertical-align: bottom;
+  color: #999;
+}
+.publish-time{
+  font-size: 25rpx;
+  margin-left: 20rpx;
+  vertical-align:middle;
+  color: #999;
+}
+.title{
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-top: 30rpx;
+  letter-spacing: 2px;
+  color: #000;
+}
+.tool{
+  margin-top: 20rpx;
+  float: right;
+  
+}
+.circle-img{
+  float: right;
+  margin-right: 40rpx;
+  vertical-align: middle;
+
+}
+
+.circle-img Image{
+  width: 70rpx;
+  margin-right: 25rpx;
+  height: 70rpx;
+}
+.linear{
+  width: 620rpx;
+  height: 2rpx;
+  background: #e5e5e5;
+  vertical-align: middle;
+  position: relative;
+  top: 35rpx;
+  margin: 0 auto;
+  z-index: -90;
+}
+.detail{
+  text-indent: 2em;
+  font-size: 18px;
+  font-family:宋体;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  letter-spacing: 2px; 
+}
+
+

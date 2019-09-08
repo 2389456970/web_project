@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.banner{overflow:hidden;
+        width:100%;
+		height:400px;
+		position:relative;
+}
+
+.banner img{ position:absolute;
+             width:1423px;
+			 height:400px;            
+}
+
+.contact_us .left {float:left;
+}
+
+.contact_us .left h1{font-family:"微软雅黑";
+                    font-size:24px;
+					width:215px;
+					height:65px;
+					background-color:#38cbf1;
+					color:#FFF;
+					text-align:center;
+					line-height:44px;
+					border-bottom:1px solid #999;
+					margin-top:25px;
+					font-weight:normal;
+					
+}
+
+.contact_us .left h1 span{font-family:"Arial";
+                         font-size:14px;
+						 display:block;
+						 text-align:center;
+						 line-height:7px;
+}
+
+.contact_us .left ul{
+                     background-color:#FFF;
+}
+
+.contact_us .left ul li{height:40px;
+}
+
+.contact_us .left ul li a{background:url(../img/tupian1.png) no-repeat 50px 16px;
+                        background-color:#38cbf1;
+                        color:#FFF;
+	                    font-family:"微软雅黑";
+                        font-size:18px;
+					    width:215px;
+					    height:40px;
+					    text-align:center;
+					    list-style:none;
+						display:block;
+						line-height:40px
+}
+
+.contact_us .left .avatar{width:216px;
+		                   height:50px;
+}
+
+.contact_us .left .avatar img{float:left;
+}
+		
+.contact_us .left .avatar h2{font-weight:normal;
+						      font-family:"宋体";
+						      font-size:12px;
+							 margin-top:12px;
+							 color:#999999;	
+							 float:left;						  
+}
+		
+.contact_us .left .avatar p{
+		                     font-family:"微软雅黑";
+		                     font-size:18px;
+							 float:left;
+							 color:#999999;
+}
+		
+.contact_us .left .avatar p span{
+		                      font-size:24px;
+							  color:#cc3333;
+							  display:block;
+							  float:right;
+							  line-height:14px;
+							  font-weight:bold;
+}
+
+.right{
+	width:920px;
+	height:100%;
+	float:right;
+}
+
+.right .title h2{font-family:"微软雅黑";
+                 font-size:24px;
+				 margin-top:63px;
+				 font-weight:normal;
+				 color:#595959;	
+				 float:left;			 
+}
+
+.right .title span{font-family:"微软雅黑";
+                      font-size:14px;
+					  display:block;
+					  float:right;
+					  margin-top:74px;
+					  color:#333333;
+}
+
+.right .title span .at_present{color:#cc6633;
+}
+
+.right .title span a:hover{color:#cc6633;
+}
+
+.contact_us{
+	        width:1200px;
+            float:left;
+}
+
+.right .title{float:left;
+              width:900px;
+	          border-bottom:2px solid #999;
+}
+
+.right .content{    
+                float:left;
+				margin-bottom:39px;
+				font-family:"微软雅黑";                  
+}
+
+.right .content ul{
+							  border:1px solid #959595;
+							  width:285px;
+							  height:243px;
+							  text-indent:2em;
+							  line-height:50px;
+							  margin-left:15px;
+}
+
+
+.right .content ul li{font-size:14px;
+                      height:50px;
+					  color:#808080;
+}
+
+.right .content h1{width:285px;
+				   border:1px solid #959595;
+				   text-indent:2em;
+				   line-height:50px;
+				   margin-left:15px;
+				   margin-top:44px;
+				   font-weight:normal;
+				   font-size:18px;
+                   color:#504f4f;
+				   background-color:#26add5;
+				   height:50px;
+}
+
+.right .postcard{background:url(../img/background.png) no-repeat;
+              margin-top:45px;
+			  float:right;
+			  width:587px;
+			  height:295px;
+}
+
+.right .postcard h1{font-weight:normal;
+                 font-family:"微软雅黑";
+				 font-size:18px;
+				 margin-top:26px;
+				 margin-left:40px;
+				 color:#504f4f;
+}
+
+.right .postcard .panels{float:left;
+                          width:275px;
+						  height:200px;
+						  margin-left:57px;
+						  margin-top:23px;
+						  color:#666666;
+}
+
+.right .postcard .panels span{float:left;
+                               font-size:14px;
+							   font-family:"微软雅黑";
+							   margin-right:10px;
+							   margin-top:2px;
+}
+
+.right .postcard .panels textarea{width:201px;
+                                   height:80px;
+								   margin-bottom:25px;
+								   padding:0 5px;
+								   border:none;
+								   border:1px solid #999;
+								   resize:none;
+								   overflow:hidden;
+								   outline:none;
+								   vertical-align:middle;
+								   padding-top:3px;
+								   font-family:"微软雅黑";
+								   color:#666666;
+}
+
+.right .postcard .panels input{width:100px;
+                                height:26px;
+								padding:0 5px;
+								border:1px solid #999;
+								outline:none;
+								vertical-align:middle;
+								font-family:"微软雅黑";
+								color:#666666;	
+								line-height:26px;					
+}
+
+.right .postcard .panels img{float:left;
+                              margin-top:-35px;
+							  margin-left:177px;
+							  cursor:pointer;
+}
+
+.right .postcard .panels .logo{background-color:#e03e26;
+                                float:right;
+								width:110px;
+								height:27px;
+								color:#161615;
+								margin-top:27px;
+								margin-right:68px;
+								outline:none;
+								cursor:pointer;
+}
+
+.right .postcard .panel{
+	               width:201px;
+				   height:191px;
+				   margin-top:23px;
+				   margin-left:40px;
+				   float:left;
+				   font-family:"微软雅黑";
+				   font-size:14px;
+				   color:#666666;
+}
+
+.right .postcard .panel span{float:left;
+                              font-size:14px;
+							  font-family:"微软雅黑";
+							  margin-right:8px;
+							  margin-top:2px;
+}
+
+.right .postcard .panel input{width:123px;
+                               height:26px;
+						       margin-bottom:16px;
+							   padding:0 5px;
+							   border:1px solid #999;
+							   outline:none;
+							   vertical-align:middle;	
+							   font-family:"微软雅黑";
+							   line-height:26px;
+							   color:#666666;
+}
+
+.right .postcard .panel textarea{width:123px;
+                                  height:55px;
+								  padding:0 5px;
+								  border:1px solid #999;
+								  resize:none;
+								  overflow:hidden;
+								  outline:none;
+								  vertical-align:middle;
+								  padding-top:3px;
+								  font-family:"微软雅黑";
+								  color:#666666;
+}

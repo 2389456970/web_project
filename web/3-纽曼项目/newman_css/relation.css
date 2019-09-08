@@ -1,0 +1,15 @@
+.from_left{width: 493px;height: 282px;margin-top: 30px;}
+.from_left h2{margin-bottom: 20px;}
+.from_left p{margin-top: 20px;}
+.relation_right{height: 160px;margin-top: 35px;}
+.relation_right h2{margin-bottom: 30px;}
+.relation_right p{margin-bottom: 30px;}
+.from_left p:nth-child(5){margin-left: 47px;}
+.aside dl dd{color: #007BE8;}
+.from_left .text{width: 301px;height: 100px;resize: none;margin-top: 6px;vertical-align: top;}
+.from_left .text{color: #000000;}
+
+.information_img{width: 930px;height: 500px;border: 1px solid #000000;}
+
+
+

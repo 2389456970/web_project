@@ -1,0 +1,85 @@
+.post-container{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20rpx; */
+    margin-bottom: 40rpx;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid#ededed;
+    padding-bottom: 5px;
+  }
+.post-author-date{
+    margin: 10rpx 0 20rpx 10rpx;
+    }
+    /* 头像 */
+    .post-author-img{
+      width: 60rpx;
+      height: 60rpx;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+    /* 发布时间 */
+    .post-author-time{
+      font-family: 微软雅黑;
+      font-size: 12px;
+      margin-left: 20rpx;
+    }
+    /* 主题 */
+    .title-text{
+      margin-bottom: 20rpx;
+      margin-left: 20px;
+      font-family: 幼圆;
+    }
+    /* 中间大图 */
+    .content-img{
+      display: flex;
+      width: 100%; 
+      /* min-height: 200px;
+      max-height: 400px; */
+      height: 200px;
+      margin-bottom: 20px;
+     
+    }
+    /* 内容介绍 */
+    .main-text{
+      font-family: 微软雅黑;
+      font-size: 12px;
+     text-indent: 2em;
+     /* 文本间距 */
+     letter-spacing: 5rpx;
+     line-height: 40rpx;
+     margin: 0 20rpx 0 20rpx;
+    }
+    /* 底部图标和数字 */
+    .bottom-text-img{
+      flex-direction: row; 
+      margin: 20rpx 0 10rpx 15rpx;
+      line-height: 16px
+    }
+    .bot-tx-img{
+      width: 30rpx;
+      height: 30rpx;
+      vertical-align: middle;
+      margin-right: 10px;
+     
+    }
+    .bot-tx-fo{
+      font-size: 12px;
+      vertical-align: middle;
+     margin-right: 15px;
+    }
+    /*查看详情*/
+    .bot-tx-det{
+      /* width: 120rpx;
+      height: 40rpx; */
+      text-align: center;
+      vertical-align: middle;
+      background: rgb(80,229,167);
+      font-size: 16px;
+      font-family: 幼圆;
+      float:right;
+      margin-right: 40rpx;
+      border: 1px solid #50E5A7;
+      border-radius: 20%;
+      color: #fff;
+    }

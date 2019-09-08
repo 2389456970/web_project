@@ -1,0 +1,27 @@
+<template name="postItem">
+ <view class='post-container'>
+        <!-- 头部信息start -->
+            <view class='post-author-date'>
+            <!-- 头像 -->
+                <image class='post-author-img' src='{{author_img}}'></image>
+                <!-- 发表时间 -->
+                <text class="post-author-time" >{{author_time}}</text>
+            </view>
+            <!-- 主题 -->
+            <text class='title-text'>{{title_text}}</text>
+            <!-- 头部信息end -->
+            <!-- 中间图片及简介start -->
+            <image class="content-img" src='{{cont_img}}'></image>
+            <!-- 简介 -->
+            <text  class="main-text">{{main_text}}</text>
+            <!-- 中间图片及简介end -->
+            <!-- 底部信息 -->
+            <view  class="bottom-text-img">
+                <image class="bot-tx-img" src='{{btfm1}}'></image>
+                <text class="bot-tx-fo">{{btf1}}</text>
+                <image class="bot-tx-img" src='{{btfm2}}'></image>
+                <text class="bot-tx-fo">{{btf2}}</text>
+                <text class="bot-tx-det">{{bot_det}}</text>
+            </view>
+        </view>
+</template>

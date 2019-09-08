@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.banner{overflow:hidden;
+        width:100%;
+		height:400px;
+		position:relative;
+}
+
+.banner img{ position:absolute;
+             width:1423px;
+			 height:400px;
+}
+
+.contact_us{
+	           float:left;
+	}
+	
+.contact_us .left{
+	}
+	
+.contact_us .left h1{
+		 background:#38cbf1;
+		 text-align:center;
+		 font-family:"微软雅黑";
+		 font-size:24px;
+		 color:#FFF;
+		 font-weight:normal;
+		 height:71px;
+		 width:215px;
+		 margin-top:20px;
+		 border-bottom:1px solid #999;
+		 line-height:44px;
+}
+		
+.contact_us .left h1 span{
+						  font-family:"微软雅黑";	
+						  display:block;
+						  text-align:center;
+						  font-size:14px;
+						  line-height:7px;			 
+	}
+	
+.contact_us .left ul{
+			         width:215px;
+					 text-align:center;
+}
+	
+.contact_us .left ul .on a{background:url(../img/tupian1.png) no-repeat 50px 16px;
+                             background-color:#38cdf1;
+							 color:#333333;
+}
+				
+.contact_us .left ul li{
+			background:url(../img/tupian.png) no-repeat 50px 16px;
+			width:215px;
+			height:40px;
+			line-height:40px;
+			border-bottom:1px solid #999;
+			float:left;
+			}
+			
+.contact_us .left ul li a{width:215px;
+                          height:40px;
+						  display:block;
+			              font-family:"微软雅黑";
+			              font-size:18px;
+			              color:#333333;						  
+}
+			
+.contact_us .left ul li:hover a{
+			                  background:url(../img/tupian1.png) no-repeat 50px 16px;
+			                  background-color:#38cbf1;
+		                      color:#333333;								 
+}
+
+.contact_us .avatar{width:216px;
+}
+
+.contact_us .avatar img{float:left;
+}
+		
+.contact_us .avatar p span{
+		                      font-size:24px;
+							  color:#cc3333;
+							  display:block;
+							  float:right;
+							  line-height:14px;
+							  font-weight:bold;
+}
+		
+.contact_us .avatar p{font-family:"微软雅黑";
+		                     font-size:18px;
+							 float:left;
+							 color:#999999;
+}
+		
+.contact_us .avatar h2{font-weight:normal;
+						      font-family:"宋体";
+						      font-size:12px;
+							 margin-top:12px;
+							 color:#999999;	
+							 float:left;
+}
+		
+.qroduct{float:right;
+         width:924px;
+}
+
+.qroduct .title{float:left;
+                width:924px;
+				border-bottom:2px solid #999;
+}
+
+.qroduct .title h2{font-family:"微软雅黑";
+            font-size:24px;
+			float:left;
+			margin-top:64px;
+			font-weight:normal;
+}
+
+.qroduct .title span{font-family:"微软雅黑";
+                 font-size:14px;
+				 float:right;
+				 margin-top:76px;
+}
+
+.qroduct .title span .at_present{color:#e03e26;
+}
+
+.qroduct .title span a:hover{color:#e03e26;
+}
+/*这里开始轮播*/
+.box .top{
+	width:776px;
+	margin:48px auto 40px;}
+	
+.box .top img{
+	width:776px;
+	height:334px;
+	margin-top:40px;}
+	
+.box .down{
+    position:relative;}
+	
+.box .down .prev{
+	width:30px;
+	height:56px;
+	background:url(../img/prev.png) no-repeat center;
+	position:absolute;
+	left:20px;
+	top:50%;
+	margin-top:-28px;}
+	
+.box .down .next{
+	width:30px;
+	height:56px;
+	background:url(../img/next.png) no-repeat center;
+	position:absolute;
+	right:20px;
+	top:50%;
+	margin-top:-28px;}
+	
+.box .down .prev:hover{
+	background:url(../img/prev_on.png) no-repeat center;}
+	
+.box .down .next:hover{
+	background:url(../img/next_on.png) no-repeat center;}
+
+	
+.box .down .middle{
+	width:808px;
+	overflow:hidden;
+	margin:0 auto;}
+
+.box .down .middle li{
+	float:left;
+	margin:0 10px;
+	border:1px solid #ccc;
+	cursor:pointer;
+	width:182px;}
+	
+.box .down .middle li.current{
+	border:1px solid #fff;
+	background:#38cbf1;}
+	
+.box .down .middle li img{
+	vertical-align:top;
+	width:180px;
+	height:130px;}
+
+
+/*这里结束*/
+.qroduct .artical{float:left;
+                  color:#767474;
+				  border:1px solid #767474;
+				  width:900px;
+				  margin-top:71px;
+				  margin-left:14px;
+				  margin-bottom:50px;
+}
+                  
+.qroduct .artical h4{display:block;
+	                 font-family:"微软雅黑";
+                     font-size:20px;
+					 text-align:center;
+					 border-bottom:1px dashed #767474;
+					 height:50px;
+					 line-height:50px;
+					 font-weight:normal;
+}
+
+.qroduct .artical h4 span{font-family:"微软雅黑";
+                          font-size:14px;
+}
+
+.qroduct .artical .span p{display:block;
+                          text-indent:2em;
+}
+
+.qroduct .artical p{font-family:"微软雅黑";
+                            font-size:18px;
+							margin-left:43px;
+							margin-top:20px;
+							width:830px;
+}
+
+.qroduct .artical ol{margin-bottom:90px;
+}
+
+.qroduct .artical ol li{font-family:"微软雅黑";
+                       font-size:18px;
+					   margin-left:43px;
+							margin-top:20px;
+							width:830px;
+}

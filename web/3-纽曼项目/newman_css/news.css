@@ -1,0 +1,15 @@
+.information ul li{width:961px;height: 100px;float: right; overflow: hidden;margin-bottom: 30px;}
+.information ul li .date{width: 108px;height: 100px;text-align: center;background: url(../newman_img/newsdate_06.jpg);padding-top:13px;}
+.information ul li .date:hover{background: url(../newman_img/newsdate_03.jpg);}
+.information ul li .date p{font-size: 48px;font-family: "微软雅黑";}
+.information ul li .host h2 a{font-size: 20px;font-family: "微软雅黑";color: #333333;}
+.information ul li .host p{font-size: 14px;color: #999999;font-family: "微软雅黑";line-height: 24px;text-indent: 2em;margin-top:20px ;}
+.information ul li .host{margin-left: 20px;width:827px;height: 100px;float: right;}
+
+/*.information .date{background: url(../newman_img/newsdate_03.jpg);width: 110px;height: 100px;}*/
+
+
+/*
+.information ul li .host h2{font-size: 20px;border: 1px solid#000000;}
+.information ul li .host{margin-left: 20px;}
+.information ul li .host p{font-size: 14px;text-indent: 2em;}*/
